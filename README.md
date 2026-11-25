@@ -25,7 +25,7 @@
 
 <p align="center">
   <a href="https://estebanpdn.github.io/worms-3d.html"><img src="docs/images/website.svg" alt="Visit Worms 3DS on Esteban’s Forge" width="142" height="46"></a>
-  <a href="https://discord.gg/BjbzfRYpV"><img src="docs/images/discord-official.svg" alt="Join our Discord community" width="166" height="46"></a>
+  <a href="https://discord.com/servers/esteban-s-forge-1533248895663210506"><img src="docs/images/discord-official.svg" alt="Join our Discord community" width="166" height="46"></a>
   <a href="https://www.patreon.com/c/EstebanPdN"><img src="docs/images/patreon.svg" alt="Support EstebanPdN on Patreon" width="216" height="46"></a>
 </p>
 
@@ -88,7 +88,7 @@ Put compatible `.worms` mod packs in `sdmc:/3ds/worms3ds/mods/` and compatible l
 
 ## Community and bug reports
 
-[Join the project Discord](https://discord.gg/BjbzfRYpV) for updates, testing and suggestions. [Open an issue](https://github.com/EstebanPdN/worms-3ds/issues) with your console model, launcher, build number, map, game mode and the steps to reproduce the issue. For conversion problems, include the disc ID and the converter's error message.
+[Join the project Discord](https://discord.com/servers/esteban-s-forge-1533248895663210506) for updates, testing and suggestions. [Open an issue](https://github.com/EstebanPdN/worms-3ds/issues) with your console model, launcher, build number, map, game mode and the steps to reproduce the issue. For conversion problems, include the disc ID and the converter's error message.
 
 With **Developer → Debug buttons** enabled, press and release **SELECT** to save a diagnostic report under `sdmc:/3ds/worms3ds/dumps/`. Keep game files, saves and dumps out of public issues.
 
