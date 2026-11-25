@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="#download-and-installation">Download</a> ·
+  <a href="https://github.com/EstebanPdN/worms-3ds/releases/tag/beta-01">Download</a> ·
   <a href="#features">Features</a> ·
   <a href="#screenshots">Screenshots</a> ·
   <a href="#documentation">Documentation</a> ·
@@ -25,13 +25,13 @@
 
 <p align="center">
   <a href="https://estebanpdn.github.io/worms-3d.html"><img src="docs/images/website.svg" alt="Visit Worms 3DS on Esteban’s Forge" width="142" height="46"></a>
-  <a href="https://github.com/EstebanPdN/worms-3ds/issues"><img src="docs/images/issues.svg" alt="Report a bug on GitHub Issues" width="166" height="46"></a>
+  <a href="https://discord.gg/BjbzfRYpV"><img src="docs/images/discord-official.svg" alt="Join our Discord community" width="166" height="46"></a>
   <a href="https://www.patreon.com/c/EstebanPdN"><img src="docs/images/patreon.svg" alt="Support EstebanPdN on Patreon" width="216" height="46"></a>
 </p>
 
-This is my native New Nintendo 3DS port of the GameCube version of *Worms 3D*. I'm still testing matches and performance in the first public beta.
+This is my native New Nintendo 3DS port of the GameCube version of *Worms 3D*. I started by recovering the GameCube code in [my Worms 3D decompilation project](https://github.com/EstebanPdN/worms-3d-decomp). I'm still testing matches and performance in the first public beta.
 
-This project was developed with the help of [OpenAI Codex](https://openai.com/codex/). Learn more about the development process [here](AI_DEVELOPMENT.md).
+This project was developed with the help of [OpenAI Codex](https://openai.com/codex/) and [Claude Code](https://claude.com/product/claude-code). Learn more about the development process [here](AI_DEVELOPMENT.md).
 
 ## Features
 
@@ -48,12 +48,7 @@ This project was developed with the help of [OpenAI Codex](https://openai.com/co
 
 ## Download and installation
 
-<p>
-  <a href="https://github.com/EstebanPdN/worms-3ds/releases/download/beta-01/Worms-3D-beta-01.cia"><img src="docs/images/download-cia.svg" alt="Download Worms 3DS CIA" width="210" height="46"></a>
-  <a href="https://github.com/EstebanPdN/worms-3ds/releases/download/beta-01/Worms-3D-beta-01.3dsx"><img src="docs/images/download-3dsx.svg" alt="Download Worms 3DS for Homebrew Launcher" width="210" height="46"></a>
-</p>
-
-[Beta-01 release notes](https://github.com/EstebanPdN/worms-3ds/releases/tag/beta-01) · [SHA-256 checksums](https://github.com/EstebanPdN/worms-3ds/releases/download/beta-01/SHA256SUMS.txt)
+[Download beta-01](https://github.com/EstebanPdN/worms-3ds/releases/tag/beta-01). The release includes the CIA, Homebrew Launcher build, FBI QR code and SHA-256 checksums.
 
 ### Requirements
 
@@ -68,9 +63,7 @@ This project was developed with the help of [OpenAI Codex](https://openai.com/co
 
 ### CIA / FBI
 
-Install the CIA from your SD card with FBI, or open **Remote Install → Scan QR Code** and scan:
-
-<a href="https://github.com/EstebanPdN/worms-3ds/releases/download/beta-01/QR-beta-01-github.png"><img src="https://github.com/EstebanPdN/worms-3ds/releases/download/beta-01/QR-beta-01-github.png" width="220" height="220" alt="FBI installation QR code for the beta-01 CIA"></a>
+Install the CIA from your SD card with FBI, or use **Remote Install → Scan QR Code** with the QR on the [beta-01 release page](https://github.com/EstebanPdN/worms-3ds/releases/tag/beta-01).
 
 ### Homebrew Launcher / 3DSX
 
@@ -95,7 +88,7 @@ Put compatible `.worms` mod packs in `sdmc:/3ds/worms3ds/mods/` and compatible l
 
 ## Community and bug reports
 
-[Open an issue](https://github.com/EstebanPdN/worms-3ds/issues) with your console model, launcher, build number, map, game mode and the steps to reproduce the issue. For conversion problems, include the disc ID and the converter's error message.
+[Join the project Discord](https://discord.gg/BjbzfRYpV) for updates, testing and suggestions. [Open an issue](https://github.com/EstebanPdN/worms-3ds/issues) with your console model, launcher, build number, map, game mode and the steps to reproduce the issue. For conversion problems, include the disc ID and the converter's error message.
 
 With **Developer → Debug buttons** enabled, press and release **SELECT** to save a diagnostic report under `sdmc:/3ds/worms3ds/dumps/`. Keep game files, saves and dumps out of public issues.
 
