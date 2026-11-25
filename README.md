@@ -1,8 +1,8 @@
 # Worms 3D for New Nintendo 3DS
 
-[Download beta-01.1](https://github.com/EstebanPdN/worms-3d-3ds/releases/tag/beta-01.1) · [Installation guide](https://estebanpdn.github.io/worms-3d.html#install)
+[Download beta-01](https://github.com/EstebanPdN/worms-3d-3ds/releases/tag/beta-01) · [Installation guide](https://estebanpdn.github.io/worms-3d.html#install)
 
-This is my native Worms 3D port for New Nintendo 3DS. Beta-01.1 is build 51.
+This is my native Worms 3D port for New Nintendo 3DS. Beta-01 is build 51.
 
 This project was developed with the help of [OpenAI Codex](https://openai.com/codex/). Learn more about the development process [here](AI_DEVELOPMENT.md).
 
@@ -18,7 +18,7 @@ This project was developed with the help of [OpenAI Codex](https://openai.com/co
 2. When the converter reports **Game data verified**, copy `assets.worms` to `sdmc:/3ds/worms3ds/assets.worms`.
 3. For a HOME Menu install, use FBI to install the CIA from the SD card, or go to **Remote Install → Scan QR Code** in FBI and scan the release QR. To use the Homebrew Launcher, put the 3DSX in `sdmc:/3ds/worms3ds/` and launch it there.
 
-[FBI installation QR](https://github.com/EstebanPdN/worms-3d-3ds/releases/download/beta-01.1/QR-beta-01.1-github.png)
+[FBI installation QR](https://github.com/EstebanPdN/worms-3d-3ds/releases/download/beta-01/QR-beta-01-github.png)
 
 ## Optional local assets
 
@@ -26,7 +26,7 @@ Copy personally prepared mods to `sdmc:/3ds/worms3ds/mods/` as `.worms` packs. Y
 
 ## Verify the download
 
-Compare the SHA-256 of your download with [`SHA256SUMS.txt`](https://github.com/EstebanPdN/worms-3d-3ds/releases/download/beta-01.1/SHA256SUMS.txt).
+Compare the SHA-256 of your download with [`SHA256SUMS.txt`](https://github.com/EstebanPdN/worms-3d-3ds/releases/download/beta-01/SHA256SUMS.txt).
 
 ## Beta feedback
 
