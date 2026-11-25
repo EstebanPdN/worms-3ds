@@ -29,7 +29,7 @@
   <a href="https://www.patreon.com/c/EstebanPdN"><img src="docs/images/patreon.svg" alt="Support EstebanPdN on Patreon" width="216" height="46"></a>
 </p>
 
-This is my native New Nintendo 3DS port of the GameCube version of *Worms 3D*. I started by recovering the GameCube code in [my Worms 3D decompilation project](https://github.com/EstebanPdN/worms-3d-decomp). I'm still testing matches and performance in the public beta.
+This is my native New Nintendo 3DS port of the GameCube version of *Worms 3D*. I started by recovering the GameCube code in [my Worms 3D decompilation project](https://github.com/EstebanPdN/worms-3d-decomp). The current public beta is [beta-02](https://github.com/EstebanPdN/worms-3ds/releases/tag/beta-02).
 
 This project was developed with the help of [OpenAI Codex](https://openai.com/codex/) and [Claude Code](https://claude.com/product/claude-code). Learn more about the development process [here](AI_DEVELOPMENT.md).
 
@@ -38,7 +38,7 @@ This project was developed with the help of [OpenAI Codex](https://openai.com/co
 <table>
   <tr>
     <td width="50%" valign="top"><strong>Start a quick match</strong><br>Take your team into a 3D battlefield on the upper screen.</td>
-    <td width="50%" valign="top"><strong>Keep the radar close</strong><br>The lower screen shows team slots, health, the turn timer and the radar during a match.</td>
+    <td width="50%" valign="top"><strong>Keep the radar close</strong><br>Check team health beside the radar. Each team fills one of four fixed-size slots, with a shadow in each empty slot.</td>
   </tr>
   <tr>
     <td width="50%" valign="top"><strong>Pick your weapon</strong><br>Open the lower-screen inventory to see what's available for the current turn.</td>
@@ -69,18 +69,18 @@ Install the CIA from your SD card with FBI, or use **Remote Install → Scan QR 
 
 Put `Worms-3D-beta-02.3dsx` in `sdmc:/3ds/worms3ds/` alongside `assets.worms`, then launch it from the Homebrew Launcher.
 
-### Optional local assets
+### Optional mods
 
-Put compatible `.worms` mod packs in `sdmc:/3ds/worms3ds/mods/` for additional game content. The CIA and 3DSX include the full two-screen interface. Your existing PAL `assets.worms` works with beta-02.
+Put compatible `.worms` mod packs in `sdmc:/3ds/worms3ds/mods/`.
 
 ## Screenshots
-
-![Beta-02 startup logos, title, main menu and two-team battle HUD captured in Azahar](docs/images/beta-02-screens.png)
 
 <p align="center">
   <img src="docs/images/weapons.webp" width="300" alt="A worm aiming a bazooka above the weapons inventory">
   <img src="docs/images/island.webp" width="300" alt="An overhead view of the island above the match radar and team HUD">
 </p>
+
+[View the startup logos, title screen, main menu and two-team HUD in beta-02](docs/images/beta-02-screens.png).
 
 ## Documentation
 
