@@ -58,7 +58,7 @@ This project was developed with the help of [OpenAI Codex](https://openai.com/co
 
 ### Prepare the game data
 
-1. Open [Forge 3DS Converter 1.2.0](https://github.com/EstebanPdN/estebanpdn.github.io/releases/tag/forge-3ds-converter-v1.2.0), select **Worms 3D**, and choose the ISO dumped from your own disc.
+1. Open [Forge 3DS Converter](https://github.com/EstebanPdN/forge-3ds-converter/releases/latest), select **Worms 3D**, and choose the ISO or RVZ from your own disc.
 2. When the converter reports **Game data verified**, copy `assets.worms` to `sdmc:/3ds/worms3ds/assets.worms`.
 
 ### CIA / FBI
